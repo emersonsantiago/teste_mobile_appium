@@ -1,0 +1,23 @@
+{
+    "name": "teste-mobile-ebac-shop",
+    "version": "1.0.0",
+    "description": "Exercicio de Testes Mobile EBAC",
+    "main": "index.js",
+    "scripts": {
+      "test": "npx wdio run ./wdio.conf.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "@wdio/allure-reporter": "^7.21.0",
+      "@wdio/cli": "^7.20.1",
+      "allure-commandline": "^2.18.1"
+    },
+    "devDependencies": {
+      "@wdio/appium-service": "^7.20.1",
+      "@wdio/local-runner": "^7.20.1",
+      "@wdio/mocha-framework": "^7.20.0",
+      "@wdio/spec-reporter": "^7.20.0",
+      "appium": "^1.22.3"
+    }
+  }
